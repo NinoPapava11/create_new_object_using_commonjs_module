@@ -1,0 +1,19 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A Simple project using CommonJS module system",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "@types/node": "^22.10.1",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    // როდესაც მითითებული არ არის target: "ES3" არის ნაგულისხმევი,
+    //   dist/index.js ძველი სტილით
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
